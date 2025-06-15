@@ -29,7 +29,7 @@ while True:
     print("Do you wish to continue? Y/N ")
     prompt=input("")
     if prompt != "Y":
-        print("Exiting Calculator")    
+        print("Exiting Calculator")   
         break
 
     
