@@ -24,7 +24,7 @@ while True:
     print("there is an error with your input. Please try again. ")
     
   print("Do you wish to continue? Y/N ")
-  prompt=input(" ")
+  prompt=input("")
   if prompt != "Y":
    break 
     
