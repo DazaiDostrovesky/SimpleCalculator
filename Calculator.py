@@ -1,5 +1,5 @@
 while True:
-    print("The commands for the operations are: add, subtract, multiply, and divide")
+    print("The commands for the operations are: add, subtract, multiply, divide, and exponent")
     Num1=float(input("Number 1: "))
     Num2=float(input("Number 2: "))
     operation=input("Enter the operation you wish to use: ")
@@ -22,6 +22,12 @@ while True:
             print( str(Num1) + " / " + str(Num2) + " = " +str(division))
         except ZeroDivisionError:
             print("You can't divide by zero")
+
+    elif operation == "exponent":
+
+        exponentation= Num1 ** Num2
+        print(str(Num1) + " ^ " + str(Num2) + " = " + str(exponentation))
+   
 
     else:
         print("there is an error with your input. Please try again. ")
